@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="pt-Br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <link rel="stylesheet" href=".\assets\css\variables.css">
+    <link rel="stylesheet" href=".\assets\css\elements.css">
+    <link rel="stylesheet" href=".\assets\css\style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <input id="close-menu" class="close-menu" type="checkbox" aria-label="Close Menu" role="button">
+    <!-- Menu da Landing Page -->
+     <label class="close-menu-label" for="close-menu" title="close menu"></label>
+    <aside class="menu white-bg">
+        <div class="main-content menu-content">
+            <h1 onclick="getElementById('close-menu').checked = false;">
+                <a href="#">LOGO</a>
+            </h1>
+            <nav>
+                <ul onclick="getElementById('close-menu').checked = false;">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#intro">Intro</a></li>
+                    <li><a href="#top3">Top 3</a></li>
+                    <li><a href="#gallery">Gallery</a></li>
+                    <li><a href="#work">Work</a></li>
+                    <li><a href="#precing">Precing</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </aside>
+    <!-- Menu da Landing Page -->
+    <div class="menu-spacing"></div> <!-- Espaço entre o menu e a intro -->
+    <!-- Into -->
+    <section id="home" class="second-bg section-viewPort">
+        <div class="main-content intro-content">
+            <div class="intro-text-content">
+                <h2>Basic HTML and CSSs</h2>
+                <p>This is a basic HTML and CSS aplied to a landing page. This page is based on lessons from the <a href="https://www.youtube.com/playlist?list=PLbIBj8vQhvm00J3f3rD33tRuNLem8EgEA" rel="external" target="_blank">"Curso de HTML e CSS Gratuito"</a> by Otávio Miranda in YouTube.
+                Herer we applied concepts for divs, sections, menus, tabels, forms, footers, and the basic CSS to create a beautiful page.</p>
+            </div>
+            <div class="intro-img">
+                <img src="./assets/img/undraw_static-assets_di5m.svg" 
+                    alt="A imagem possui três partes. 
+                    Há esquerda o desenho de um homem segurando a logo padrão do CSS. 
+                    No meio o desenho de uma mulher tentando empurrar a logo padrão do JavaScript. 
+                    Há direita o dedesenho de um homem segurando a logo do HTML">
+            </div>
+        </div>
+    </section>
+    <!-- Into -->
+    <!-- Top 3 Intro -->
+    <section id="intro" class="white-bg section-viewPort">
+        <div class="main-content top3-content">
+            <h1>Top 3 Jobs</h1>
+            <p>The top three jobs vary by ranking criteria, but consistent high-paying roles include Anesthesiologist, Surgeon, and Chief Executive Officer (CEO). Other high-earning and in-demand jobs frequently mentioned are Data Scientist, AI & Machine Learning Engineer, Investment Banker, and Corporate Lawyer.</p>
+            <h5>High-paying roles</h3>
+            <ul>
+                <li>Anesthesiologist: A medical professional who administers anesthesia and monitors patients during and after surgery.</li>
+                <li>Surgeon: A medical doctor who performs operations, including specialized fields like neurosurgery, orthopedics, and cardiology.</li>
+                <li>Chief Executive Officer (CEO): The highest-ranking executive in a company, responsible for making major corporate decisions and managing operations and resources.</li>
+            </ul>
+        </div>
+    </section>
+    <!-- Top 3 Intro -->
+    <!-- Top 3 Grid -->
+    <section id="top3" class="grid-one second-bg section-viewPort">
+        <div class="main-content">
+            <h2>Other top jobs</h2>
+            <p class="grid-description">The session above may not have been interesting. But this one brings some computing-related work.</p>
+            <div class="grid">
+                <article>
+                    <h3>FinTech</h3>
+                    <p>FinTech Engineers are at the forefront of the financial industry’s digital revolution. They develop innovative technologies that power online banking, mobile payments, cryptocurrency platforms, investment apps, and more. Their work helps make financial services faster, more secure, and accessible to people worldwide.</p>
+                </article>
+                <article>
+                    <h3>AI</h3>
+                    <p>AI (Artificial Intelligence) and Machine Learning Specialists are shaping the future by creating intelligent systems that can learn, adapt, and make decisions with minimal human intervention. Their work powers technologies like virtual assistants, recommendation algorithms (like those on Netflix and Spotify), self-driving cars, and even advanced healthcare diagnostics.</p>
+                </article>
+                <article>
+                    <h3>Big Data</h3>
+                    <p>Big Data Specialists play a key role in helping businesses make smarter decisions. They work with large and complex sets of data, organizing, analyzing, and uncovering trends that can shape business strategies. Their job is about understanding what those patterns mean and how they can be turned into actionable insights.</p>
+                </article>
+            </div>
+        </div>
+    </section>
+    <!-- Top 3 Grid -->
+    <!-- Gallery -->
+    <section id="gallery" class="white-bg grid-one section-viewPort">
+        <div class="main-content">
+            <h2>Gallery</h2>
+            <p class="grid-description">Uma galeria de imagens geradas de forma aleatória.</p>
+        <div class="grid">
+            <div class="gallery-img">
+                <img src="https://picsum.photos/360?r=1" alt="Imagem gerada aleatoriamente">
+            </div>
+            <div class="gallery-img">
+                <img src="https://picsum.photos/360?r=2" alt="Imagem gerada aleatoriamente">
+            </div>
+            <div class="gallery-img">
+                <img src="https://picsum.photos/360?r=3" alt="Imagem gerada aleatoriamente">
+            </div>
+            <div class="gallery-img">
+                <img src="https://picsum.photos/360?r=4" alt="Imagem gerada aleatoriamente">
+            </div>
+            <div class="gallery-img">
+                <img src="https://picsum.photos/360?r=5" alt="Imagem gerada aleatoriamente">
+            </div>
+            <div class="gallery-img">
+                <img src="https://picsum.photos/360?r=6" alt="Imagem gerada aleatoriamente">
+            </div>
+        </div>
+        </div>
+    </section>
+    <!-- Gallery -->
+    <!-- Work -->
+    <section id="work" class="grid-one second-bg section-viewPort">
+        <div class="main-content">
+            <h2>Other top jobs</h2>
+            <p class="grid-description">The session above may not have been interesting. But this one brings some computing-related work.</p>
+            <div class="grid grid-list">
+                <article>
+                    <h3>FinTech</h3>
+                    <p>FinTech Engineers are at the forefront of the financial industry’s digital revolution. They develop innovative technologies that power online banking, mobile payments, cryptocurrency platforms, investment apps, and more. Their work helps make financial services faster, more secure, and accessible to people worldwide.</p>
+                </article>
+                <article>
+                    <h3>AI</h3>
+                    <p>AI (Artificial Intelligence) and Machine Learning Specialists are shaping the future by creating intelligent systems that can learn, adapt, and make decisions with minimal human intervention. Their work powers technologies like virtual assistants, recommendation algorithms (like those on Netflix and Spotify), self-driving cars, and even advanced healthcare diagnostics.</p>
+                </article>
+                <article>
+                    <h3>Big Data</h3>
+                    <p>Big Data Specialists play a key role in helping businesses make smarter decisions. They work with large and complex sets of data, organizing, analyzing, and uncovering trends that can shape business strategies. Their job is about understanding what those patterns mean and how they can be turned into actionable insights.</p>
+                </article>
+            </div>
+        </div>
+    </section>
+    <!-- Work -->
+    <!-- Table -->
+    <section id="precing" class="white-bg section-viewPort">
+        <div class="main-content top3-content">
+            <h1>Top 3 Jobs</h1>
+            <p>The top three jobs vary by ranking criteria, but consistent high-paying roles include Anesthesiologist, Surgeon, and Chief Executive Officer (CEO). Other high-earning and in-demand jobs frequently mentioned are Data Scientist, AI & Machine Learning Engineer, Investment Banker, and Corporate Lawyer.</p>
+            <div class="responsive-table">
+                <table>
+                    <caption>Precing Table</caption>
+                    <thead>
+                        <tr>
+                            <th>Title 1</th>
+                            <th>Title 2</th>
+                            <th>Title 3</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Content 1</td>
+                            <td>Content 2</td>
+                            <td>Content 3</td>
+                        </tr>
+                        <tr>
+                            <td>Content 1</td>
+                            <td>Content 2</td>
+                            <td>Content 3</td>
+                        </tr>
+                        <tr>
+                            <td>Content 1</td>
+                            <td>Content 2</td>
+                            <td>Content 3</td>
+                        </tr>
+                    </tbody>
+                    <tfoot>
+                        <tr>
+                            <tr>
+                                <td></td>
+                                <td></td>
+                                <td>Foot</td>
+                            </tr>
+                        </tr>
+                    </tfoot>
+                </table>
+            </div>
+        </div>
+    </section>
+    <!-- Table -->
+    <!-- Contact -->
+    <section id="contact" class="intro second-bg section-viewPort">
+        <div class="main-content intro-content">
+            <div class="intro-text-content">
+                <h2>Masonry: Watching a CSS Feature Evolve</h2>
+                <p>
+                    Look at the CSS Masonry discussions and what they can teach us about the development of new CSS features. What is the CSSWG’s role? What influence do browsers have? What can learn from the way past features evolved?
+                </p>
+            </div>
+            <div class="intro-img">
+                <img src="./assets/img/mailbox.svg" 
+                    alt="A imagem é composta por uma caixa de correio rural cheia de correspondências. O estilo é minimalista, com predominância de azul-marinho escuro, azul-violeta claro e branco.">
+            </div>
+            <div class="contact-form">
+                <fieldset class="form-grid">
+                    <legend>Contact me</legend>
+                    <div class="form-group">
+                        <label for="first-name">Primeiro Nome</label>
+                        <input type="text" name="first-name" id="first-name" placeholder="Your name">
+                    </div>
+                    <div class="form-group">
+                        <label for="last-name">Último sobrenome</label>
+                        <input type="text" name="last-name" id="last-name" placeholder="Your last name">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">E-mail</label>
+                        <input type="email" name="email" id="email" placeholder="email@gmail.com">
+                    </div>
+                    <div class="form-group full-width">
+                        <label for="message">Mensagem</label>
+                        <textarea name="message" id="message" cols="30" rows="10" placeholder="A message you want to send me"></textarea>
+                    </div>
+                    <div class="form-group full-width">
+                        <button type="submit">Enviar</button>
+                    </div>
+                </fieldset>
+            </div>
+        </div>
+    </section>
+    <!-- Contact -->
+    <!-- footer -->
+    <footer class="white-bg footer">
+        <p>Não tá bonito, mas foi trabalho honesto <span class="heart">♥</span></p>
+        <p><a href="https://www.svgbackgrounds.com/set/free-svg-backgrounds-and-patterns/" rel="external" target="_blank">Aqui está o site que foi pego o SVG de fundo</a></p>
+        <p><a href="https://css-tricks.com/masonry-watching-a-css-feature-evolve" rel="external" target="_blank">Um bom site para aprender css</a></p>
+        <p><a href="https://undraw.co/illustrations" rel="external" target="_blank">Site com imagens em SVG</a></p>
+    </footer>
+    <!-- footer -->
+
+    <a href="#" class="back-to-top" aria-label="Voltar ao topo" role="button">❮</a>
+</body>
+</html>
